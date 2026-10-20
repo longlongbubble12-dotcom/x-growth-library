@@ -3,6 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": { "demo": "node cli.js examples.json", "test": "node --test", "score": "node cli.js" },
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "preview": "node scripts/dev-server.mjs",
+    "test:scoring": "node --experimental-strip-types --test calibration/verify.mjs",
+    "test:content": "node --test tests/content.test.mjs",
+    "demo": "node cli.js examples.json",
+    "test": "node --test",
+    "score": "node cli.js"
+  },
   "engines": { "node": ">=20" }
 }

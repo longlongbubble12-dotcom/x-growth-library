@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="拾帖：从 X 上精选值得读的方法，拆解适用条件，为适合的内容提供配方与行动入口。当前为前端演示。">
+  <title>拾帖 — 少刷一点，找到值得做的</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body class="library-home">
+  <a class="skip-link" href="#main">跳到精选内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="拾帖首页"><img src="/favicon.svg" width="29" height="29" alt=""><span>拾帖<span class="brand-dot">.</span></span></a>
+      <nav class="main-nav" aria-label="主导航">
+        <button class="nav-link active" type="button" data-view="all" aria-pressed="true">发现</button>
+        <button class="nav-link" type="button" data-view="saved" aria-pressed="false">我的收藏 <span id="saved-count">0</span></button>
+      </nav>
+      <form class="search-bar" id="search-form" role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg>
+        <input id="search-input" type="search" aria-label="搜索方法、主题、工具或作者" placeholder="搜索方法、工具…" autocomplete="off">
+        <button class="search-clear" id="clear-search" type="button" aria-label="清空搜索" hidden>×</button>
+      </form>
+      <span class="preview-pill">PREVIEW</span>
+    </div>
+  </header>
+  <div class="page-shell">
+    <main id="main" class="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div><div class="eyebrow">THE CURATED LIBRARY</div><h1 id="hero-title">好方法，值得留下。</h1></div>
+        <div class="demo-notice"><span></span><p id="content-notice">历史复盘与演示内容已分别标注</p></div>
+      </section>
+      <nav id="topic-nav" class="topic-nav" aria-label="按主题浏览"></nav>
+      <section class="discovery" aria-label="筛选精选帖子">
+        <details class="filter-panel">
+          <summary><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 6h14M3 14h14"/><circle cx="7" cy="6" r="2" fill="white"/><circle cx="13" cy="14" r="2" fill="white"/></svg>筛选<span id="filter-count"></span></summary>
+          <div class="filter-row">
+          <div class="filter-controls">
+            <label><span>内容来源</span><select id="origin-filter"><option value="all">全部内容</option><option value="historical">真实历史复盘</option><option value="demo">虚构演示</option></select></label>
+            <label><span>内容形式</span><select id="type-filter"><option value="all">全部形式</option><option>实战案例</option><option>步骤教程</option><option>提示词／模板</option><option>工作流</option></select></label>
+            <label><span>适用人群</span><select id="audience-filter"><option value="all">所有人群</option><option>独立开发者</option><option>内容创作者</option></select></label>
+            <label class="recipe-filter"><input id="recipe-filter" type="checkbox"><span>有配方可查看</span></label>
+          </div>
+          <button type="button" class="reset-button" id="reset-filters" hidden>重置</button>
+          </div>
+        </details>
+      </section>
+      <section class="feed-section" aria-labelledby="feed-title">
+        <div class="feed-header">
+          <div class="feed-heading"><h2 id="feed-title">本期精选</h2><span id="result-count" aria-live="polite"></span></div>
+          <div class="feed-tools">
+            <label class="sort-label"><span class="sr-only">排序方式</span><select id="sort-order"><option value="editor">编辑顺序</option><option value="newest">发布日期较新</option></select></label>
+            <div class="layout-toggle" aria-label="内容布局"><button type="button" data-layout="list" aria-pressed="true" aria-label="阅读列表"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M7 5h10M7 10h10M7 15h10M3 5h1M3 10h1M3 15h1"/></svg></button><button type="button" data-layout="grid" aria-pressed="false" aria-label="卡片视图"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="3" width="5" height="5" rx="1"/><rect x="12" y="3" width="5" height="5" rx="1"/><rect x="3" y="12" width="5" height="5" rx="1"/><rect x="12" y="12" width="5" height="5" rx="1"/></svg></button></div>
+          </div>
+        </div>
+        <div id="post-feed" class="post-feed" data-layout="grid"></div>
+        <div id="empty-state" class="empty-state" hidden><span id="empty-symbol" aria-hidden="true">○</span><h3 id="empty-title"></h3><p id="empty-description"></p><button id="empty-action" type="button" class="button secondary"></button></div>
+        <div id="feed-end" class="feed-end"><span></span><p>本期就这些。</p><span></span></div>
+      </section>
+      <footer class="site-footer"><span>拾帖 <span class="footer-dot">/</span> 从信息到行动</span><span>本地演示 · 收藏保存在当前浏览器</span></footer>
+    </main>
+  </div>
+  <dialog id="post-dialog" class="post-dialog" aria-labelledby="detail-title">
+    <div class="dialog-toolbar"><span id="detail-eyebrow">帖子拆解</span><button id="close-dialog" class="icon-button" type="button" aria-label="关闭详情">×</button></div>
+    <div id="detail-content"></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><div class="noscript-message">此页面需要 JavaScript 来展示精选内容与筛选交互，请在浏览器中启用 JavaScript。</div></noscript>
+</body>
+</html>
