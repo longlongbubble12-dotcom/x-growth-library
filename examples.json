@@ -1,0 +1,28 @@
+[
+  {
+    "id": "strong",
+    "title": "用激活邮件提高试用用户激活率（虚构演示）",
+    "content": "对注册后未完成首次操作的试用用户发送任务指引邮件，对照实验观察七日激活率。",
+    "evidence": { "sourceUrl": "https://example.com/demo/activation", "metric": "七日激活率（%）", "before": 18, "after": 26, "period": "14天", "sample": "400名试用用户，随机分成两组", "method": "随机对照，两组各200人，使用相同激活事件定义" },
+    "steps": ["筛选注册24小时仍未完成首次操作的用户", "随机分组，实验组发送单一任务指引邮件", "14天后比较两组七日激活率"],
+    "resources": "邮件工具、事件分析工具，约半天配置时间",
+    "successMetric": "七日激活率，并同时监控退订率",
+    "audience": { "who": "自助注册的SaaS团队", "stage": "已有稳定试用注册量", "prerequisites": "能记录激活事件且有邮件触达许可" },
+    "limitations": ["小样本结果不能直接外推", "不适合销售主导的高客单价产品"],
+    "attributionCaveat": "需检查分组差异、置信区间及同时发生的产品变更"
+  },
+  {
+    "id": "borderline",
+    "title": "垂直社区内容获客实验（虚构演示）",
+    "content": "在垂直社区发布问题解决指南，使用独立追踪链接记录新增试用。",
+    "evidence": { "sourceUrl": "https://example.com/demo/community", "metric": "每周新增试用数", "before": 5, "after": 12, "period": "连续4周", "sample": "同一社区发布4篇指南" },
+    "steps": ["收集社区常见问题并写解决指南", "发布指南并使用独立链接追踪试用"],
+    "successMetric": "每周有效试用数",
+    "audience": { "who": "垂直领域独立开发者", "stage": "已有可试用产品", "prerequisites": "能持续产出专业内容" }
+  },
+  {
+    "id": "weak",
+    "title": "坚持发帖就能爆发增长（虚构演示）",
+    "content": "每天发帖，多互动，保持执行力，你也能获得十倍增长。"
+  }
+]

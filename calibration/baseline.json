@@ -1,0 +1,301 @@
+{
+  "scoringSourceSha256": "b9fe4f227f54c247b07a1a58bbb965180c848a07b6199955799fedcc9bfe1a97",
+  "reviewedAt": "2026-10-15",
+  "results": [
+    {
+      "id": "spreadsheet-lead-magnet",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 70,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：有说明（+10）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "用实用表格获取潜在客户",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "segmented-onboarding",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 60,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：缺少说明（+0）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "按用途细分试用引导",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时间、资金或工具成本未说明",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "signature-case-study",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 60,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：缺少说明（+0）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "在销售邮件签名中展示案例",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时间、资金或工具成本未说明",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "youtube-lead-links",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 60,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：缺少说明（+0）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "在视频三个位置设置获客入口",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时间、资金或工具成本未说明",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "free-education",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 70,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：有说明（+10）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "用免费垂直课程展示产品价值",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "instagram-support",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 70,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：有说明（+10）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "通过客服入口引导社交关注",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "template-launch",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 85,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：有数据证明标记（+25）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：有说明（+10）",
+        "风险：未标记为难复现（+10）",
+        "推广：存在软广或商业推广标记（+0）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "模板产品上线前的邮件名单预热",
+        "proof": "标记为有数据证明；具体数据和来源尚未提取或核实",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "存在软广，需核实利益关系及推荐偏差",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "paid-training-offer",
+      "expectedRecommendation": "rejected",
+      "totalScore": 60,
+      "recommendation": "rejected",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：有说明（+10）",
+        "风险：未标记为难复现（+10）",
+        "推广：存在软广或商业推广标记（+0）",
+        "时效性：需重新确认（+0）",
+        "自动拒绝：属于商家或卖课推广"
+      ],
+      "summary": {
+        "coreMethod": "获客服务教程导向付费培训",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "存在软广，需核实利益关系及推荐偏差",
+          "存在商业推广或卖课倾向",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "newsletter-welcome",
+      "expectedRecommendation": "needs_review",
+      "totalScore": 60,
+      "recommendation": "needs_review",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：有操作步骤（+25）",
+        "适用人群：明确（+15）",
+        "成本门槛：缺少说明（+0）",
+        "风险：未标记为难复现（+10）",
+        "推广：未标记为软广或卖课推广（+10）",
+        "时效性：需重新确认（+0）",
+        "待复核：请根据 summary.limitations 补充或核实信息"
+      ],
+      "summary": {
+        "coreMethod": "新订阅者立即收到示例刊",
+        "proof": "未提供数据证明",
+        "executionSteps": "标记为有执行步骤；具体步骤尚未从原文提取",
+        "audience": "标记为适用人群明确；具体人群尚未从原文提取",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "时间、资金或工具成本未说明",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "solo-business-stories",
+      "expectedRecommendation": "rejected",
+      "totalScore": 0,
+      "recommendation": "rejected",
+      "reasons": [
+        "证据：未提供数据证明（+0）",
+        "执行性：缺少操作步骤（+0）",
+        "适用人群：不明确（+0）",
+        "成本门槛：缺少说明（+0）",
+        "风险：难以复现（+0）",
+        "推广：存在软广或商业推广标记（+0）",
+        "时效性：需重新确认（+0）",
+        "自动拒绝：只有爆款故事，缺少可迁移的方法",
+        "自动拒绝：缺少可执行步骤",
+        "自动拒绝：未明确适用人群",
+        "自动拒绝：总分低于50"
+      ],
+      "summary": {
+        "coreMethod": "高收入一人公司案例合集",
+        "proof": "未提供数据证明",
+        "executionSteps": "未提供可执行步骤",
+        "audience": "适用人群不明确",
+        "limitations": [
+          "依据输入标记评分，未独立核实原文、数据或因果关系",
+          "缺少数据证据，需要补充来源、样本及对照",
+          "缺少可执行步骤",
+          "适用人群不明确",
+          "时间、资金或工具成本未说明",
+          "存在软广，需核实利益关系及推荐偏差",
+          "爆款个案可能存在幸存者偏差",
+          "方法难以复现，可能依赖特殊资源或背景",
+          "时效性未确认，需核实平台规则和方法有效期"
+        ],
+        "confidence": "low"
+      }
+    }
+  ]
+}

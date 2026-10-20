@@ -1,0 +1,8 @@
+{
+  "name": "x-growth-curator-scorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "demo": "node cli.js examples.json", "test": "node --test", "score": "node cli.js" },
+  "engines": { "node": ">=20" }
+}

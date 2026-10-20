@@ -1,0 +1,321 @@
+{
+  "reviewedAt": "2026-10-15",
+  "annotationBy": "assistant_manual_provisional",
+  "purpose": "对评分输入标注口径和规则进行初步校准；不是独立评测或已核实的增长建议。",
+  "sourcePolicy": "读取存档主体或搜索索引可见正文；未读取的图片、外链内容及More from区块不作为依据。X原站直接访问失败。",
+  "contentPolicy": "title/contentText是人工中文概述，不是完整原文；scorePost当前不做语义抽取。字段未被可见内容支持时正向标记为false，不代表事实不存在。",
+  "recencyPolicy": "以2026-10-15为校准日；本批2020—2022旧帖没有近期有效性核验，isRecent统一为false。搜索抓取日期不当作发布日期。",
+  "samples": [
+    {
+      "id": "spreadsheet-lead-magnet",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1397312304614682629",
+        "archiveUrl": "https://threadreaderapp.com/thread/1397312304614682629.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "只给宽泛结果，缺样本、周期及方法归因，hasDataProof=false。",
+        "execution": "制作表格→落地页获取信息→按单场/多场活动细分，存在可执行流程。",
+        "audience": "有垂直专业知识、能制作模板并拥有分发入口的产品团队；不是无流量通用捷径。",
+        "cost": "提供2—3小时制作耗时。",
+        "risk": "制作流程可复现，但大公司流量和结果不能直接外推。"
+      },
+      "input": {
+        "title": "用实用表格获取潜在客户",
+        "contentText": "线程转述 Eventbrite 制作活动推广表格，用落地页收集下载者信息；制作耗时2—3小时。效果为宽泛的线索和收入规模，作者同时指出原公司已有流量。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": true,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "segmented-onboarding",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1417180319904641025",
+        "archiveUrl": "https://threadreaderapp.com/thread/1417180319904641025.html",
+        "access": "archive_body",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "54%是转述的效果主张，缺样本、周期和原始数据，hasDataProof=false。",
+        "execution": "询问用途→调查关键动作→分组引导。",
+        "audience": "具备多种使用场景和试用流程的SaaS团队。",
+        "cost": "未量化研发、人力或工具投入。",
+        "risk": "流程可复现，实际增幅需自己验证。"
+      },
+      "input": {
+        "title": "按用途细分试用引导",
+        "contentText": "线程称 MYOB 按用户用途设计不同的试用引导后，转化率提升54%；建议注册时询问用途，再通过调查定位关键功能，并用站内或邮件引导。没有给出实验周期、样本或投入。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": false,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "signature-case-study",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1334182255397318662",
+        "archiveUrl": "https://threadreaderapp.com/thread/1334182255397318662.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "百分比和浏览量不含评估上下文，hasDataProof=false。",
+        "execution": "制作简短案例横幅→附CTA链接→加入签名。",
+        "audience": "已有客户案例且通过邮件接触潜客的团队。",
+        "cost": "提及制作工具，但没有说明时间、费用或使用门槛。",
+        "risk": "可低成本试验；浏览量不等于成交。"
+      },
+      "input": {
+        "title": "在销售邮件签名中展示案例",
+        "contentText": "线程建议将案例制作成带链接的邮件签名横幅；引用成交比例增加70%和案例新增约14000次浏览，但没有呈现基线、周期或样本。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": false,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "youtube-lead-links",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1396874001637679106",
+        "archiveUrl": "https://threadreaderapp.com/thread/1396874001637679106.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "有案例做法但无可判断效果的数据，hasDataProof=false。",
+        "execution": "选定目标内容→制作视频→配置三个链接位置。",
+        "audience": "已有视频产出能力和资料落地页的产品团队。",
+        "cost": "没有解释制作时间或预算。",
+        "risk": "平台能力与外链规则未核实当前有效性。"
+      },
+      "input": {
+        "title": "在视频三个位置设置获客入口",
+        "contentText": "线程建议为目标受众制作视频，并在结尾画面、简介和置顶评论放置落地页或资料链接；举出频道做法，没有展示线索转化数据。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": false,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "free-education",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1386745786394943492",
+        "archiveUrl": "https://threadreaderapp.com/thread/1386745786394943492.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "799美元是课程价格，不是增长效果，hasDataProof=false。",
+        "execution": "验证需求→录制→上传→展示。",
+        "audience": "有专业知识、适合通过教程展示产品的团队。",
+        "cost": "说明前期规划制作时间投入和后续边际成本；不要求必须出现精确金额。",
+        "promotion": "讨论免费课程这一方法，不是该帖直接售课；isMerchantOrCourse=false。"
+      },
+      "input": {
+        "title": "用免费垂直课程展示产品价值",
+        "contentText": "线程讨论将专业知识制作成免费课程，建议先验证需求、录制内容，再上传并嵌入网站；承认前期制作耗时。提到Ahrefs曾将标价799美元的课程免费开放，但没有获客结果数据。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": true,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "instagram-support",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1394751068077187072",
+        "archiveUrl": "https://threadreaderapp.com/thread/1394751068077187072.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "近十倍缺少基线、样本和周期，hasDataProof=false。",
+        "execution": "配置聊天引导→提供折扣→保留原客服。",
+        "audience": "有电商客户和客服场景的团队；对多数开发工具适用性有限。",
+        "cost": "15%折扣是明确的获客让利成本。",
+        "risk": "折扣吸引者未必是付费客户；平台适用性待确认。"
+      },
+      "input": {
+        "title": "通过客服入口引导社交关注",
+        "contentText": "线程描述电商网站在聊天入口用15%折扣引导用户到Instagram咨询，称关注量接近十倍，并建议保留原客服渠道；未提供起始关注数、周期或成交质量。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": true,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "template-launch",
+      "source": {
+        "author": "TomFrankly",
+        "xUrl": "https://x.com/TomFrankly/status/1438555003950493697",
+        "archiveUrl": "https://threadreaderapp.com/thread/1438555003950493697.html",
+        "access": "archive_body",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "有受众规模、动作、时间窗和销售数，符合最低可评估证据；只是自述，不是独立审计或对照实验。",
+        "execution": "内容和模板获客→建立等待名单→预热→上线邮件。",
+        "audience": "有相关垂直受众和数字产品的创作者或独立开发者。",
+        "cost": "提及缩略图时间投入、工具方案和支持负担。",
+        "promotion": "方法复盘含自有产品购买提示，标为软广；不因作者是商家就设硬广告标志。",
+        "risk": "暖名单、既有受众和归因混杂限制结果外推。"
+      },
+      "input": {
+        "title": "模板产品上线前的邮件名单预热",
+        "contentText": "作者自述向434人的名单发送预热和上线两封邮件，前三天获得63笔销售；描述视频、免费模板及邮件名单流程，提及制作时间和工具免费方案。线程也含自有模板购买链接及测试价提示。",
+        "hasDataProof": true,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": true,
+        "isSoftAd": true,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "paid-training-offer",
+      "source": {
+        "author": "thedankoe",
+        "xUrl": "https://x.com/thedankoe/status/1438205934505889792",
+        "archiveUrl": "https://threadreaderapp.com/thread/1438205934505889792.html",
+        "access": "archive_body",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "rejected",
+      "rationale": {
+        "proof": "建议收费和假设客户数不是实际增长结果。",
+        "execution": "有实践和服务交付流程，但不能抵消直接售课目的。",
+        "audience": "面向给成熟教练提供获客服务的经营者，不是一般SaaS。",
+        "cost": "包含购买培训及使用客户款支付推广的投入。",
+        "promotion": "明确价格及购买入口，按本项目收录政策硬拒绝。"
+      },
+      "input": {
+        "title": "获客服务教程导向付费培训",
+        "contentText": "线程建议面向教练提供账号运营和私信获客服务，购买培训并建立系统；结尾明确引导购买9.97美元的培训内容。收费和客户数量是建议或假设，没有实际转化证据。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": true,
+        "isSoftAd": true,
+        "isMerchantOrCourse": true,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "newsletter-welcome",
+      "source": {
+        "author": "IndieHackers",
+        "xUrl": "https://x.com/IndieHackers/status/1412818428193382400",
+        "archiveUrl": "https://threadreaderapp.com/thread/1412818428193382400.html",
+        "access": "search_index",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "needs_review",
+      "rationale": {
+        "proof": "只是预期机制说明，没有数据证明。",
+        "execution": "选择非时效性优质内容→配置订阅后发送。",
+        "audience": "已有历史内容和订阅名单的newsletter经营者。",
+        "cost": "未说明配置及内容整理成本。",
+        "risk": "实操候选而非已证实有效的方法。"
+      },
+      "input": {
+        "title": "新订阅者立即收到示例刊",
+        "contentText": "线程建议新订阅者加入后即刻收到一份常青示例刊，可选历史优质内容或组合；声称有助于预期管理和减少退订，但没有实验结果。",
+        "hasDataProof": false,
+        "hasExecutionSteps": true,
+        "hasAudienceFit": true,
+        "hasCostExplanation": false,
+        "isSoftAd": false,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": false,
+        "isHardToReproduce": false,
+        "isRecent": false
+      }
+    },
+    {
+      "id": "solo-business-stories",
+      "source": {
+        "author": "volodarik",
+        "xUrl": "https://x.com/volodarik/status/1601964069023531011",
+        "archiveUrl": "https://threadreaderapp.com/thread/1601964069023531011.html",
+        "access": "archive_body",
+        "verification": "未独立核实数据，标注只基于可见存档内容"
+      },
+      "expectedRecommendation": "rejected",
+      "rationale": {
+        "proof": "公司总收入或流量不能证明某一增长方法有效。",
+        "execution": "推荐阅读其他文章不等于当前帖有方法步骤。",
+        "audience": "列举一人公司，不等于明确某个增长方法的适用条件。",
+        "promotion": "免费课程引流标软广；没有把免费课程误标为付费卖课。",
+        "risk": "成功者合集存在选择偏差，当前线程无法复现其增长。"
+      },
+      "input": {
+        "title": "高收入一人公司案例合集",
+        "contentText": "线程罗列多个一人公司的收入、流量和产品规模，并链接其他故事；当前线程没有提供统一可执行的获客方法或适用前提，结尾推广自己的免费邮件课程。",
+        "hasDataProof": false,
+        "hasExecutionSteps": false,
+        "hasAudienceFit": false,
+        "hasCostExplanation": false,
+        "isSoftAd": true,
+        "isMerchantOrCourse": false,
+        "isViralStoryOnly": true,
+        "isHardToReproduce": true,
+        "isRecent": false
+      }
+    }
+  ]
+}
